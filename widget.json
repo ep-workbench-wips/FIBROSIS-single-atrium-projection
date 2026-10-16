@@ -1,0 +1,46 @@
+{
+    "num_of_systems": 3,
+    "static_widgets": [
+        {
+            "name": "display_plot",
+            "widget_type": "QCheckBox",
+            "properties": {
+                "text": "Display a plotter before outputting case",
+                "checked": true
+            }
+        },
+        {
+            "name": "threshold",
+            "widget_type": "QDoubleSpinBox",
+            "properties": {
+                "min": 0.0,
+                "max": 10000.0,
+                "decimals": 2,
+                "step": 0.01,
+                "value": 0.5
+            }
+        },
+        {
+            "name": "above_threshold",
+            "widget_type": "QCheckBox",
+            "properties": {
+                "text": "Tick=above_threshold, Untick=below_threshold",
+                "checked": true
+            }
+        },
+        {
+            "name": "field_name",
+            "widget_type": "QLineEdit",
+            "properties": {
+                "text": "bipolar_voltage"
+            }
+        },
+        {
+            "name": "Note:",
+            "widget_type": "QLabel",
+            "properties": {
+                "text": "fields: ('bipolar_voltage', 'unipolar_voltage', 'local_activation_time', 'impedance', 'force', 'thickness', 'cell_region', 'longitudinal_fibres', 'transverse_fibres', 'pacing_site', 'conduction_velocity', 'cv_divergence', 'histogram')"
+            }
+        }
+    ]
+}
