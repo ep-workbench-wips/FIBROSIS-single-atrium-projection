@@ -8,7 +8,7 @@ try:
     debug = False
     print(case_1)
     case_model=cases[case_1]
-    case_RA=cases[case_2]
+    case_eam=cases[case_2]
     print("Running in PROD mode", flush=True)
 
 

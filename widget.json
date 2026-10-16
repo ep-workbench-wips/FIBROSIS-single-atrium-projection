@@ -1,5 +1,5 @@
 {
-    "num_of_systems": 3,
+    "num_of_systems": 2,
     "static_widgets": [
         {
             "name": "display_plot",
@@ -39,7 +39,14 @@
             "name": "Note:",
             "widget_type": "QLabel",
             "properties": {
-                "text": "fields: ('bipolar_voltage', 'unipolar_voltage', 'local_activation_time', 'impedance', 'force', 'thickness', 'cell_region', 'longitudinal_fibres', 'transverse_fibres', 'pacing_site', 'conduction_velocity', 'cv_divergence', 'histogram')"
+                "text": "case_1=model (to_project), case_2=eam_case"
+            }
+        },
+        {
+            "name": "Fields:",
+            "widget_type": "QLabel",
+            "properties": {
+                "text": "fields: ('bipolar_voltage', \n 'unipolar_voltage', \n 'local_activation_time', \n 'impedance', \n 'force', \n 'thickness', \n 'cell_region', \n 'longitudinal_fibres', \n 'transverse_fibres', \n 'pacing_site', \n 'conduction_velocity', \n 'cv_divergence', \n 'histogram')"
             }
         }
     ]
